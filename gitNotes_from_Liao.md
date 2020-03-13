@@ -12,8 +12,9 @@
 ```bash
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
+$ git config --global --list
 ```
-`git config`命令的`--global`参数，表明这台机器上的所有Git仓库都会使用这个配置，也可以对某个仓库指定不同的用户名和邮箱地址。
+`git config`命令的`--global`参数（换成`--local`就是局部），表明这台机器上的所有Git仓库都会使用这个配置，也可以对某个仓库指定不同的用户名和邮箱地址。`--list`参数可以查看已经配置的信息
 
 ### 创建版本库
 #### 初始化一个Git仓库
